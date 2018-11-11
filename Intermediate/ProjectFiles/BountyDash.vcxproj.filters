@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BountyDash.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{604C619E-C5B5-4DA8-A5A6-7980C9B79C9F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BountyDash.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BountyDashEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{141211A9-F4E1-44DB-BFE7-8460650C354F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{86C7095A-7F0D-4463-A5A7-2F0BF8DB7D4C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PowerUpPlugin">
+			<UniqueIdentifier>{E489CB7D-AC6E-4AE8-B548-08F0704E56C5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PowerUpPlugin\Source">
+			<UniqueIdentifier>{39AA137F-B184-47EE-A550-B4228DF5A0D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PowerUpPlugin\Source\PowerUpPlugin">
+			<UniqueIdentifier>{A5D67A3E-0464-4E57-BC98-BF90969D4D9F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PowerUpPlugin\Source\PowerUpPlugin\PowerUpPlugin.Build.cs">
+			<Filter>Plugins\PowerUpPlugin\Source\PowerUpPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\PowerUpPlugin\Source\PowerUpPlugin\Private">
+			<UniqueIdentifier>{B1F506DA-60A0-4FF1-8AC4-AC5BB23903CE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PowerUpPlugin\Source\PowerUpPlugin\Private\PowerUpObject.cpp">
+			<Filter>Plugins\PowerUpPlugin\Source\PowerUpPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PowerUpPlugin\Source\PowerUpPlugin\Private\PowerUpPlugin.cpp">
+			<Filter>Plugins\PowerUpPlugin\Source\PowerUpPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\PowerUpPlugin\Source\PowerUpPlugin\Public">
+			<UniqueIdentifier>{FFBD7279-AC11-47CD-BFA3-E85AF54F5A26}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PowerUpPlugin\Source\PowerUpPlugin\Public\PowerUpObject.h">
+			<Filter>Plugins\PowerUpPlugin\Source\PowerUpPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PowerUpPlugin\Source\PowerUpPlugin\Public\PowerUpPlugin.h">
+			<Filter>Plugins\PowerUpPlugin\Source\PowerUpPlugin\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\PowerUpPlugin\PowerUpPlugin.uplugin">
+			<Filter>Plugins\PowerUpPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\PowerUpPlugin\Resources">
+			<UniqueIdentifier>{363FA9C1-F5FC-445E-8247-2D0C504B22C3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PowerUpPlugin\Resources\Icon128.png">
+			<Filter>Plugins\PowerUpPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Source\BountyDash">
+			<UniqueIdentifier>{4ECED8A2-9327-42D1-9381-91EC715A9B83}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BountyDash\BountyDash.Build.cs">
+			<Filter>Source\BountyDash</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDash.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDash.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashCharacter.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashCharacter.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashGameMode.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashGameMode.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashGameModeBase.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashGameModeBase.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashHUD.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashHUD.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashObject.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashObject.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashParticle.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashParticle.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\BountyDashPowerUp.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\BountyDashPowerUp.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\Coin.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\Coin.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\CoinSpawner.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\CoinSpawner.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\DestroyedFloorPiece.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\DestroyedFloorPiece.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\Floor.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\Floor.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\Obstacle.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\Obstacle.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BountyDash\ObstacleSpawner.cpp">
+			<Filter>Source\BountyDash</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BountyDash\ObstacleSpawner.h">
+			<Filter>Source\BountyDash</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

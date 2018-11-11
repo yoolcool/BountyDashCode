@@ -1,0 +1,4 @@
+H:\Projects_code\BountyDashCode\BountyDashCode\Source\BountyDash\BountyDash.Build.cs
+H:\Projects_code\BountyDashCode\BountyDashCode\Plugins\PowerUpPlugin\Source\PowerUpPlugin\PowerUpPlugin.Build.cs
+H:\Projects_code\BountyDashCode\BountyDashCode\Source\BountyDash.Target.cs
+H:\Projects_code\BountyDashCode\BountyDashCode\Source\BountyDashEditor.Target.cs
